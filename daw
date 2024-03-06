@@ -1,0 +1,23 @@
+getgenv().hardwork = {
+["chaser"] = true,
+["megalodaunt"] = true,
+["lionfish"] = true,
+["avatar"] = true,
+["boneboy"] = true,
+["crocco"] = true,
+["golem"] = true,
+["megalodauntalpha"] = true,
+["megalodauntlegendary"] = true,
+["deepknight"] = true,
+["angel"] = true,
+["angellesser"] = true,
+["turtle"] = true,
+["kinggigamed"] = true,
+["kingcrocco"] = true,
+["stoneknight"] = true,
+["owl"] = true,
+["deepangel"] = true,
+["croccofear"] = true,
+["primegolem"] = true,
+
+}
