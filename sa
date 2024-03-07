@@ -1,0 +1,84 @@
+return {
+      [6500291394] = {selection ={15},targetted_only = true},--.master_lightning5811|6500291394|LightningImpact_Cast
+			[8378263543] = {selection ={1,22}, distance = 15},--.master_fire4976|8378263543|GrandEruption
+			[8046864635] = {selection ={4},within = true},--.master_fire4983|8046864635|Ichimonji
+			[7618754583] = {selection ={6},within = true},--.master_fire5143|7618754583|Vacuum Punch 
+			[8857099063] = {selection ={6},within = true},--.master_lightning5811|8857099063|LightningForgeWind
+			[6017711975] = {selection ={8},dodge_only = true,within = true},--.master_wind4243|6017711975|Backflipcool
+			[5828300938] = {selection ={4},dodge_only = true,facing_only = true,targetted_only = true,within = true,speacial_lookforeffect = "Not yet this is for future checks when it waits until the effect is within range after the cast done (timing) "},--.master_wind4977|5828300938|EldritchBlastCharge
+			[6017393708] = {selection ={0},facing_only = true, wait_until_within = true, distance = 15,more_wait = 0.1},--.master_wind4243|6017393708|SpearLunge
+			[5750296638] = {selection ={0},facing_only = true, wait_until_within = true, distance = 10,more_wait = 0.1,prefire2 = function(wow)
+				if wow.id == "5750296638" and wow.rootpart.Parent:FindFirstChild("ShadowHand") then wait_(0.3) end
+			end},--.ministry_scout5021|5750296638|ChokeWindup
+			[6318273143] = {selection ={0.400},facing_only = true, wait_until_within = true, distance = 30,more_wait = 0},--.ministry_scout3636|6318273143|ShadowDashStartup
+			[7598889071] = {selection ={4},within = true},--.master_ice7006|7598889071|Icemace
+			[9551012380] = {selection ={3},dodge_only = true,within = true},--.master_ice7006|9551012380|NewEruption
+			[7543723607] = {selection ={5},dodge_only = true,within = true},--.master_ice7006|7543723607|icespike
+			[8018881257] = {selection ={3},within = true},--.ministry_scout3636|8018881257|ShadowEruption_Wind
+			[7350770431] = {selection ={3,3,2},within = true},--.ministry_scout2042|7350770431|TripleCut
+			[5121733951] = {selection ={2,0.40},within = true},--.megalodaunt2|5121733951|DoubleSharkoSwipe
+			[5117879514] = {selection ={2},within = true},--.megalodaunt2|5117879514|SharkoSwipe
+			[11710290503] = {selection ={3},waitbeforeend = 0.33,more_wait = 0.03,nominus = true,dodge_only = true,within = true},--.megalodaunt2|11710290503|sharko_kick_v2
+			[6499077558] = {selection ={2},within = true},--.golem3|6499077558|BigGolemDoubleSlam
+			[6500704554] = {selection ={2},waitbeforeend = 0.5,nominus = true,dodge_only = true,within = true,more_wait = -0.03},--.golem3|6500704554|UpSmash
+			[6501044846] = {selection ={2},waitbeforeend = 0.33,nominus = true,dodge_only = true,within = true,more_wait = 0.05},--.golem3|6501044846|Execute
+			[8226933122] = {selection ={2,2,0.23},nominus = true,within = true},--.crocco_fear4695|8226933122|TripleBite
+			[8227583745] = {selection ={2,2},nominus = true,within = true},--.crocco4|8227583745|CroccoSwipes_KingCrocco
+			[8227878518] = {selection ={3},nominus = true,within = true},--.crocco_fear4935|8227878518|TailWhip
+			[8130745441] = {selection ={2},within = true},--.stoneknight8|8130745441|SKSwing1
+			[8130778356] = {selection ={2},within = true},--.stoneknight8|8130778356|SKSwing2
+			[7018046790]= {selection ={2},custom_block = 0.4,more_wait = -0.04,nominus = true,within = true},--.enforcer7|7018046790|EnforcerSwing1
+			[7018083796]= {selection ={2},custom_block = 0.4,more_wait = -0.04,nominus = true,within = true},--.enforcer7|7018083796|EnforcerSwing2
+			[7019686291]= {selection ={2},custom_block = 0.4,nominus = true,within = true},--.enforcer7|7019686291|EnforcerKick
+			[8131156119] = {selection ={2,0.05},waitbeforeend = 0.33,nominus = true,dodge_only = true,within = true},--.stoneknight8|8131156119|SKPunt
+			[15714151635] = {selection ={0.0055},dodge_only = true,within = true},--8juaumkun8|15714151635|IceDiskThrow2
+			[5769343416]= {selection ={2},more_wait = 0.25,dodge_only = false,within = true},--8juaumkun8|5769343416|storm raise arm
+			[5946954713] = {selection ={4},dodge_only = false,within = true},--circlesoldierice|5946954713|squad guy clap
+			[6038858570] = {selection ={2,4,5},dodge_only = false,within = true},--.ministry_scout3638|6038858570|BladeCoreRework
+			[9470857690] = {selection ={2},dodge_only = false,within = true},--8juaumkun8|9470857690|DidEtLieToMe
+			[7367818208] = {selection ={5},dodge_only = false,within = true},--8juaumkun8|7367818208|GS OVerhand
+			[6415085564] = {custom_mantra_size = "Shadow Gun",selection ={0.15},more_wait = 0,facing_only = false,within = true,custom_block = 0.3},--carboomerxx|6415085564|ShadowGunshot
+			[7620633231] = {selection ={2},more_wait = 0,facing_only = false,within = true,custom_block = 2},--.necromancer6998|7620633231|ScreamWindup
+			[7693947084] = {selection ={0.400},facing_only = true, wait_until_within = true, distance = 15,more_wait = 0},--synthivo|7693947084|NewChokeFire
+			[9726608174] = {selection ={5.56},more_wait = 0,facing_only = false,within = true,custom_block = 0.2},--carboomerxx|9726608174|ContractorGrab
+			[12564120372] = {selection ={12},dodge_only = false,within = true},--carboomerxx|12564120372|GroundSlideAttack
+			[11887874227] = {selection ={12},dodge_only = false,within = true},--carboomerxx|11887874227|Swordupper
+			[9681421310] = {selection ={22},within = true},--.boneboy21|9681421310|BoneKeeperArmSweep1_Bone Keeper
+			[9681905891] = {selection ={0},facing_only = false,targetted_only = true, wait_until_within = true, distance = 10,more_wait = 0,prefire = function(wow)
+				local tittt = tick()
+				repeat task.wait() until lookfor(wow.humanoid,"9690822091") or tick() - tittt > 0.5
+				wait_(0.1)
+			end},--.boneboy21|9681905891|BoneKeeperHeadRush_Bone Keeper
+		
+			[5968282214]= {selection ={2},more_wait = 0.25,dodge_only = false,within = true,custom_block = 2,nofeint = true},--.master_lightning4244|5968282214|LightningChargeUp
+			[9710538334] = {selection ={5},more_wait = 0,waitbeforeend = 0.5,dodge_only = true,within = true},--.boneboy21|9710538334|BoneChokeStart
+			[9681916972] = {selection ={5},more_wait = -0.25,dodge_only = true,within = true},--.boneboy21|9681916972|BoneKeeperSpikeFloor_Bone Keeper
+			--[8041947316] =  {selection ={7},within = true,custom_block = 0.3}, -- .turtle3869|8041947316|turtle_stampede
+			[6728950754] = {selection = {6,4,4}, within = true,custom_block = 0.3}, 	
+			[6448880983] = {selection ={0},facing_only = false, wait_until_within = true, distance = 30,more_wait = 0,hold = 3},
+			[8265980703] = {selection ={0},facing_only = true, wait_until_within = true, distance = 20,more_wait = 0.2,hold = 1},
+			[7388133473] = {selection = {3}, within = true,custom_block = 0.3}, 	
+		
+			[13799614234] = {selection = {2}, within = true,custom_block = 0.3}, 	
+			[13799655062] = {selection = {2}, within = true,custom_block = 0.3}, 	
+			[13799693320] = {selection = {2}, within = true,custom_block = 0.3}, 	
+			[7938093143] = {selection = {2}, within = true,dodge_only = true}, 	
+			[8176091986] = {selection = {4}, within = true,dodge_only = true}, 	
+			[7942002115] = {selection = {3,3}, within = true,custom_block = 0.3}, 	
+			[5680585677] = {selection = {3,7,7}, within = true,custom_block = 0.3}, 
+		
+			--[8286153000] = {selection = {4},dodge_only = true, within = true,custom_block = 0.25,more_wait = 0.3}, 
+			[8290626574] = {selection = {5},dodge_only = true, within = true,more_wait = 0.2}, 
+			[8161039359] = {selection = {17}, within = true,custom_block = 0.3}, 
+			[8085349676] = {selection = {4}, within = true,custom_block = 0.3}, 
+			[7639648215] = {selection = {2},custom_block = 0.3, within = true}, 
+		
+			[7639988883] = {selection = {2},custom_block = 0.3, within = true}, 
+			[6432260013] = {selection = {0.44 + 0.15,0.3+0.15,0.3+0.15},custom_block = 0.3, within = true,more_wait = 0}, 
+			[6438111139] = {selection = {2},dodge_only = true, within = true,}, 
+			[8365199156] = {selection = {5}, within = true,custom_block = 0.3}, 
+			[9225086332] = {selection = {25},dodge_only = true, within = true}, 
+			[9225081967] = {selection = {5}, within = true,custom_block = 0.3}, 
+			[9225098544] = {selection = {4}, within = true,custom_block = 0.3,true,more_wait = 0.05}, 
+		
+		}
