@@ -1,7 +1,6 @@
 getgenv().hardwork = {
 ["chaser"] = true,
 ["megalodaunt"] = true,
-["lionfish"] = true,
 ["avatar"] = true,
 ["boneboy"] = true,
 ["crocco"] = true,
@@ -19,5 +18,8 @@ getgenv().hardwork = {
 ["deepangel"] = true,
 ["croccofear"] = true,
 ["primegolem"] = true,
+["brainsucker"] = true,
+["darkentity"] = true,
+["divervessel"] = true,
 
 }
