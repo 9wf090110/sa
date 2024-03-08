@@ -21,5 +21,6 @@ getgenv().hardwork = {
 ["brainsucker"] = true,
 ["darkentity"] = true,
 ["divervessel"] = true,
+["duke"] = true,
 
 }
