@@ -24,5 +24,7 @@ getgenv().hardwork = {
 ["duke"] = true,
 ["ferryman"] = true,
 ["monky"] = true,
+["lionfish"] = true,
+["lionfishice"] = true,
 
 }
